@@ -155,7 +155,7 @@ Defense: caro-asercion/warlord-helmet
 Building: caro-asercion/water-mill
 Nature: caro-asercion/willow-tree
 Object: caro-asercion/windchimes
-Tech: caro-asercion/wok
+Food: caro-asercion/wok
 History: cathelineau/annexation
 Character: cathelineau/bad-gnome
 Vehicle: cathelineau/battleship
@@ -230,7 +230,7 @@ Tech: delapouite/acoustic-megaphone
 Geography: delapouite/africa
 Nature: delapouite/agave
 People: delapouite/ages
-Tech: delapouite/air-balloon
+Vehicle: delapouite/air-balloon
 Character: delapouite/air-man
 Vehicle: delapouite/airplane-arrival
 Vehicle: delapouite/airplane-departure
@@ -343,7 +343,6 @@ Tech: delapouite/barrier
 Tech: delapouite/base-dome
 Sports: delapouite/baseball-bat
 Sports: delapouite/baseball-glove
-Tech: delapouite/baseball-tee
 Sports: delapouite/basketball-ball
 Sports: delapouite/basketball-basket
 Sports: delapouite/basketball-jersey
@@ -383,7 +382,7 @@ Clothing: delapouite/black-belt
 Architecture: delapouite/black-bridge
 Defense: delapouite/black-knight-helm
 Geography: delapouite/black-sea
-Object: delapouite/blacksmith
+People: delapouite/blacksmith
 Furniture: delapouite/blanket
 Clothing: delapouite/blindfold
 Architecture: delapouite/block-house
@@ -618,7 +617,7 @@ Clothing: delapouite/converse-shoe
 Character: delapouite/convict
 Symbol: delapouite/convince
 Tech: delapouite/conway-life-glider
-Object: delapouite/cook
+People: delapouite/cook
 Food: delapouite/cookie
 Clothing: delapouite/cooking-glove
 Object: delapouite/cooking-pot
@@ -805,7 +804,7 @@ Symbol: delapouite/evil-love
 Structure: delapouite/evil-tower
 Mythology: delapouite/executioner-hood
 Structure: delapouite/exit-door
-Tech: delapouite/expand
+Arrow: delapouite/expand
 Tech: delapouite/expense
 Military: delapouite/exploding-planet
 Sports: delapouite/extra-time
@@ -879,7 +878,6 @@ Tech: delapouite/floating-platforms
 Tech: delapouite/fog-light
 Vehicle: delapouite/food-truck
 Vehicle: delapouite/forklift
-Mythology: delapouite/fallen-star
 Animal: delapouite/griffin-symbol
 Mythology: delapouite/galaxy
 Animal: delapouite/greek-sphinx
@@ -1235,7 +1233,7 @@ Fantasy: delapouite/metal-golem-head
 Tech: delapouite/metal-plate
 Tech: delapouite/metal-skirt
 Game: delapouite/metroid
-Tech: delapouite/metronome
+Music: delapouite/metronome
 Geography: delapouite/mexico
 Music: delapouite/microphone
 Fantasy: delapouite/mighty-boosh
@@ -1322,7 +1320,7 @@ Game: delapouite/o-brick
 Nature: delapouite/oak-leaf
 Geography: delapouite/oasis
 Mythology: delapouite/obelisk
-Tech: delapouite/observatory
+Space: delapouite/observatory
 Music: delapouite/ocarina
 Food: delapouite/oden
 Furniture: delapouite/office-chair
@@ -1623,7 +1621,7 @@ Food: delapouite/sandwich
 Clothing: delapouite/santa-hat
 Structure: delapouite/sarcophagus
 Animal: delapouite/sasquatch
-Tech: delapouite/satellite-communication
+Space: delapouite/satellite-communication
 Animal: delapouite/sauropod-head
 Food: delapouite/sausage
 Food: delapouite/sausages-ribbon
@@ -1914,7 +1912,7 @@ Weapon: delapouite/thor-hammer
 People: delapouite/three-friends
 Mythical: delapouite/throne-king
 Sports: delapouite/throwing-ball
-Tech: delapouite/thrust-bend
+Arrow: delapouite/thrust-bend
 Gesture: delapouite/thumb-down
 Gesture: delapouite/thumb-up
 Mythical: delapouite/thwomp
@@ -2080,7 +2078,7 @@ Action: lorc/all-for-one
 Object: lorc/alligator-clip
 Animal: lorc/ammonite-fossil
 Animal: lorc/ammonite
-Object: lorc/anatomy
+Body: lorc/anatomy
 Object: lorc/anchor
 Tech: lorc/android-mask
 Object: lorc/andromeda-chain
@@ -2102,7 +2100,7 @@ Animal: lorc/armadillo-tail
 Defense: lorc/armor-vest
 Defense: lorc/armoured-shell
 Weapon: lorc/arrow-cluster
-Weapon: lorc/arrow-dunk
+Arrow: lorc/arrow-dunk
 Weapon: lorc/arrow-flights
 Weapon: lorc/arrow-scope
 Weapon: lorc/arrowed
@@ -2131,7 +2129,7 @@ Health: lorc/ball-heart
 Object: lorc/balloons
 Health: lorc/bandage-roll
 Health: lorc/bandaged
-Weapon: lorc/barbed-arrow
+Arrow: lorc/barbed-arrow
 Weapon: lorc/barbed-coil
 Weapon: lorc/barbed-nails
 Weapon: lorc/barbed-spear
@@ -2397,7 +2395,7 @@ Magic: lorc/cursed-star
 Weapon: lorc/curvy-knife
 Item: lorc/cut-diamond
 Health: lorc/cut-palm
-Tech: lorc/cycle
+Arrow: lorc/cycle
 Mythical: lorc/cyclops
 Mythical: lorc/daemon-skull
 Weapon: lorc/daggers
@@ -2429,7 +2427,7 @@ Animal: lorc/direwolf
 Tech: lorc/disc
 Weapon: lorc/disintegrate
 Emotion: lorc/distraction
-Tech: lorc/divergence
+Arrow: lorc/divergence
 Arrow: lorc/divert
 Tech: lorc/divided-spiral
 Weapon: lorc/diving-dagger
@@ -2596,7 +2594,7 @@ Tech: lorc/folded-paper
 Animal: lorc/food-chain
 Tech: lorc/foot-trip
 Nature: lorc/footprint
-Weapon: lorc/forward-field
+Space: lorc/forward-field
 Nature: lorc/fossil
 Tech: lorc/fountain-pen
 Tech: lorc/fountain
@@ -2608,8 +2606,8 @@ Creature: lorc/frankenstein-creature
 Weapon: lorc/frayed-arrow
 Animal: lorc/freedom-dove
 Animal: lorc/frog
-Anatomy: lorc/front-teeth
-Anatomy: lorc/frontal-lobe
+Body: lorc/front-teeth
+Body: lorc/frontal-lobe
 Magic: lorc/frostfire
 Weapon: lorc/frozen-arrow
 Magic: lorc/frozen-block
@@ -2667,11 +2665,11 @@ Music: lorc/guitar
 Weapon: lorc/gunshot
 Weapon: lorc/halberd-shuriken
 Weapon: lorc/halberd
-Anatomy: lorc/half-heart
+Body: lorc/half-heart
 Magic: lorc/half-tornado
 Weapon: lorc/hammer-drop
 Tool: lorc/hammer-nails
-Anatomy: lorc/hand
+Body: lorc/hand
 Tool: lorc/handcuffs
 Animal: lorc/hanging-spider
 Creature: lorc/happy-skull
@@ -2687,7 +2685,7 @@ Weapon: lorc/headshot
 Magic: lorc/heart-bottle
 Magic: lorc/heart-drop
 Magic: lorc/heart-inside
-Anatomy: lorc/heart-organ
+Body: lorc/heart-organ
 Structure: lorc/heart-tower
 Magic: lorc/heartburn
 Magic: lorc/heat-haze
@@ -2709,7 +2707,7 @@ Nature: lorc/honeycomb
 Food: lorc/honeypot
 Clothing: lorc/hood
 Creature: lorc/hoof
-Anatomy: lorc/horn-internal
+Body: lorc/horn-internal
 Defense: lorc/horned-helm
 Creature: lorc/horned-skull
 Animal: lorc/horse-head
@@ -2739,7 +2737,7 @@ Weapon: lorc/impact-point
 Weapon: lorc/implosion
 Action: lorc/imprisoned
 Magic: lorc/incense
-Anatomy: lorc/incisors
+Body: lorc/incisors
 Weapon: lorc/incoming-rocket
 Creature: lorc/infested-mass
 Magic: lorc/ink-swirl
@@ -2749,13 +2747,13 @@ Symbol: lorc/interdiction
 Creature: lorc/interlaced-tentacles
 Weapon: lorc/interleaved-arrows
 Weapon: lorc/interleaved-claws
-Anatomy: lorc/internal-injury
-Anatomy: lorc/internal-organ
+Body: lorc/internal-injury
+Body: lorc/internal-organ
 Magic: lorc/interstellar-path
 Weapon: lorc/ion-cannon-blast
 Defense: lorc/iron-mask
 Symbol: lorc/james-bond-aperture
-Anatomy: lorc/jawbone
+Body: lorc/jawbone
 Animal: lorc/jellyfish
 Tech: lorc/jetpack
 Jewelry: lorc/jeweled-chalice
@@ -2777,7 +2775,7 @@ Creature: lorc/lamprey-mouth
 Weapon: lorc/land-mine
 Tool: lorc/lantern-flame
 Tool: lorc/lantern
-Anatomy: lorc/large-wound
+Body: lorc/large-wound
 Weapon: lorc/laser-blast
 Tool: lorc/laser-precision
 Weapon: lorc/laser-sparks
@@ -3041,7 +3039,7 @@ Magic: lorc/resonance
 Tech: lorc/reticule
 Arrow: lorc/return-arrow
 Object: lorc/ribbon
-Anatomy: lorc/ribcage
+Body: lorc/ribcage
 Magic: lorc/ringed-beam
 Space: lorc/ringed-planet
 Item: lorc/ringing-bell
@@ -3075,7 +3073,7 @@ Animal: lorc/salamander
 Food: lorc/salt-shaker
 Magic: lorc/sands-of-time
 Object: lorc/saphir
-Tech: lorc/sattelite
+Space: lorc/sattelite
 Weapon: lorc/saw-claw
 Defense: lorc/scale-mail
 Item: lorc/scales
@@ -3098,7 +3096,7 @@ Animal: lorc/sea-dragon
 Animal: lorc/sea-serpent
 Animal: lorc/seated-mouse
 Health: lorc/self-love
-Anatomy: lorc/semi-closed-eye
+Body: lorc/semi-closed-eye
 Emotion: lorc/sensuousness
 Tech: lorc/sentry-gun
 Weapon: lorc/serrated-slash
@@ -3109,7 +3107,7 @@ Magic: lorc/shadow-grasp
 Weapon: lorc/shard-sword
 Animal: lorc/shark-jaws
 Object: lorc/sharp-crown
-Anatomy: lorc/sharp-lips
+Body: lorc/sharp-lips
 Emotion: lorc/sharp-smile
 Item: lorc/sharped-teeth-skull
 Magic: lorc/shatter
@@ -3138,7 +3136,7 @@ Action: lorc/sing
 Mythical: lorc/sinking-trap
 Magic: lorc/sinusoidal-beam
 Magic: lorc/six-eyes
-Anatomy: lorc/skeleton-inside
+Body: lorc/skeleton-inside
 Tool: lorc/skeleton-key
 Object: lorc/skid-mark
 Weapon: lorc/skull-bolt
@@ -3152,7 +3150,7 @@ Jewelry: lorc/skull-signet
 Weapon: lorc/skull-slices
 Action: lorc/slap
 Defense: lorc/slashed-shield
-Weapon: lorc/slavery-whip
+Action: lorc/slavery-whip
 Emotion: lorc/sleepy
 Food: lorc/sliced-bread
 Weapon: lorc/slicing-arrow
@@ -3167,7 +3165,7 @@ Animal: lorc/snake-bite
 Animal: lorc/snake-totem
 Animal: lorc/snake
 Action: lorc/snatch
-Anatomy: lorc/snout
+Body: lorc/snout
 Mythical: lorc/snow-bottle
 Weather: lorc/snowflake-1
 Weather: lorc/snowflake-2
@@ -3178,7 +3176,7 @@ Weapon: lorc/sonic-boom
 Magic: lorc/sonic-lightning
 Weapon: lorc/sonic-screech
 Weapon: lorc/sonic-shout
-Tech: lorc/space-suit
+Space: lorc/space-suit
 Weapon: lorc/spade-skull
 Weapon: lorc/spade
 Tool: lorc/spanner
@@ -3228,12 +3226,12 @@ Nature: lorc/spoted-flower
 Weapon: lorc/spotted-arrowhead
 Nature: lorc/spotted-mushroom
 Health: lorc/spotted-wound
-Tech: lorc/spoutnik
+Space: lorc/spoutnik
 Nature: lorc/spray
 Action: lorc/sprint
 Mystical: lorc/sprout-disc
 Nature: lorc/sprout
-Tech: lorc/spyglass
+Space: lorc/spyglass
 Item: lorc/square-bottle
 Tech: lorc/squib
 Animal: lorc/squid-head
@@ -3363,7 +3361,7 @@ Tech: lorc/time-trap
 Tech: lorc/tinker
 Animal: lorc/toad-teeth
 Item: lorc/tombstone
-Anatomy: lorc/tooth
+Body: lorc/tooth
 Clothing: lorc/top-hat
 Symbol: lorc/top-paw
 Weapon: lorc/tornado-discs
@@ -3373,7 +3371,7 @@ Mythical: lorc/totem-mask
 Structure: lorc/tower-fall
 Object: lorc/trade
 Health: lorc/transfuse
-Tech: lorc/transparent-tubes
+Science: lorc/transparent-tubes
 Tech: lorc/transportation-rings
 Mythical: lorc/trap-mask
 Tech: lorc/tread
@@ -3397,7 +3395,7 @@ Symbol: lorc/triple-skulls
 Symbol: lorc/triple-yin
 Object: lorc/tripwire
 Creature: lorc/triton-head
-Tech: lorc/tron-arrow
+Arrow: lorc/tron-arrow
 Object: lorc/trophy
 Clothing: lorc/trousers
 Health: lorc/tumor
@@ -3439,7 +3437,7 @@ Magic: lorc/voodoo-doll
 Weather: lorc/vortex
 Animal: lorc/vulture
 Clothing: lorc/walking-boot
-Weapon: lorc/wasp-sting
+Animal: lorc/wasp-sting
 Magic: lorc/water-bolt
 Nature: lorc/water-splash
 Nature: lorc/wave-crest
@@ -3455,7 +3453,7 @@ Weapon: lorc/whip
 Weapon: lorc/whiplash
 Weather: lorc/whirlwind
 Structure: lorc/white-tower
-Weapon: lorc/wide-arrow-dunk
+Arrow: lorc/wide-arrow-dunk
 Nature: lorc/wildfires
 Weapon: lorc/william-tell-skull
 Weapon: lorc/william-tell
@@ -3490,7 +3488,7 @@ Weapon: lorc/wrecking-ball
 Animal: lorc/wyvern
 Defense: lorc/zebra-shield
 Weapon: lorc/zeus-sword
-Weapon: lorc/zig-arrow
+Arrow: lorc/zig-arrow
 Abstract: lorc/zigzag-cage
 Nature: lorc/zigzag-leaf
 Music: lorc/zigzag-tune
@@ -3499,7 +3497,7 @@ Tech: lord-berandas/artificial-intelligence
 Weapon: lord-berandas/bomber
 Tech: lord-berandas/computing
 Tech: lord-berandas/diagram
-Weapon: lord-berandas/heavy-fighter
+Space: lord-berandas/heavy-fighter
 Tech: lord-berandas/holosphere
 Vehicle: lord-berandas/light-fighter
 Tech: lord-berandas/microscope
@@ -3558,7 +3556,7 @@ Action: sbed/duel
 Nature: sbed/egg-pod
 Tech: sbed/electric
 Creature: sbed/evil-wings
-Tech: sbed/expander
+Arrow: sbed/expander
 Arrow: sbed/fall-down
 Action: sbed/falling
 Weapon: sbed/fire
@@ -3762,7 +3760,7 @@ Magic: skoll/read
 Game: skoll/retro-controller
 Weapon: skoll/revolver
 Animal: skoll/sea-creature
-Tech: skoll/shield-disabled
+Defense: skoll/shield-disabled
 Weapon: skoll/siege-ram
 Tech: skoll/sight-disabled
 Mythical: skoll/siren
@@ -4066,7 +4064,7 @@ Clothing: delapouite/underwear
 Clothing: delapouite/underwear-shorts
 Vehicle: delapouite/unicycle
 Game: delapouite/up-card
-Tech: delapouite/upgrade
+Arrow: delapouite/upgrade
 Symbol: delapouite/uprising
 Geography: delapouite/uruguay
 Clothing: delapouite/ushanka
@@ -4118,7 +4116,7 @@ Music: delapouite/whistle
 Architecture: delapouite/window
 Architecture: delapouite/window-bars
 Weather: delapouite/windsock
-Tech: delapouite/wine-bottle
+Food: delapouite/wine-bottle
 Mythology: delapouite/winged-scepter
 Clothing: delapouite/winter-gloves
 Clothing: delapouite/winter-hat
