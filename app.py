@@ -27,13 +27,7 @@ def read_categories():
                 if not icon.lower().endswith('.svg'):
                     icon += '.svg'
                 
-                icon_path = os.path.join(ICONS_BASE_PATH, icon)
-                print(f"Checking icon path: {icon_path}")
-                if os.path.exists(icon_path):
-                    categories[category].append(icon)
-                    print(f"Added icon {icon} to category {category}")
-                else:
-                    print(f"Warning: Icon file not found: {icon_path}")
+                categories[category].append(icon)
             except ValueError:
                 print(f"Warning: Invalid format in line {line_number}: {line}")
     

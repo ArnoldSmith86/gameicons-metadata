@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         icons.forEach(icon => {
             const img = document.createElement('img');
-            img.src = `/assets/game-icons.net/${icon}`;
+            img.src = `https://raw.githubusercontent.com/game-icons/icons/refs/heads/master/${icon}`;
             img.alt = icon;
             img.title = icon.split('/').pop().replace('.svg', '');
             img.onclick = () => toggleIconSelection(icon, img);

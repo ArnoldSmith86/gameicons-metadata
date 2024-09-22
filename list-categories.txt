@@ -4132,14 +4132,3 @@ Clothing: delapouite/wooden-clogs
 Clothing: delapouite/wooden-pegleg
 Architecture: delapouite/wood-frame
 Nature: delapouite/wood-stick
-
----
-
-grep -Po '^[^:]+' list-categories.txt | sort | uniq -c | sort -n
-cd /home/mint/Projects/virtualtabletop.io/virtualtabletop/test && rm -rf */ && sed -nr 's#^([A-Z][a-z]+): ([a-z0-9-]+)/([a-z0-9-]+)#mkdir -p \1; ln -s ../../assets/game-icons.net/\2/\3.svg \1/\2-\3.svg#p' list-categories.txt | bash
-
----
-
-Output the same list but prepend **each line** with a fitting category name (like Animal, Nature, Weapon, Tech or something like that). Don't use too many different category names. Example output:
-
-Animal: delapouite/worms

@@ -65,7 +65,7 @@ if __name__ == "__main__":
     list_file = os.path.expanduser("list.txt")
     categories_file = os.path.expanduser("list-categories.txt")
     tags_file = os.path.expanduser("list-tags.txt")
-    output_file = "assets/fonts/symbols.json"
+    output_file = "symbols.json"
 
     generate_symbols_json(list_file, categories_file, tags_file, output_file)
     print(f"Generated {output_file} successfully.")

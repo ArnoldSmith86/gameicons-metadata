@@ -4129,9 +4129,3 @@ zajkonur/skull-with-syringe: danger, health, medical
 zajkonur/violin: music, instrument, strings
 zeromancer/heart-minus: health, injury, loss
 zeromancer/heart-plus: health, gain, love
-
----
-
-This is a list of icon filenames (author/name). I have a UI where a user can search for an icon. Please add three alternate names to each so it's easier for a user to find them. For example:
-
-delapouite/feline: animal, mammal, cat
