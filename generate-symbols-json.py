@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from collections import OrderedDict
 
 def read_list_file(file_path):
@@ -56,7 +57,9 @@ def generate_symbols_json(list_file, categories_file, tags_file, output_file):
             sorted(sorted_symbols_dict[category].items(), key=sort_key)
         )
 
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    output_dir = os.path.dirname(output_file)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     with open(output_file, 'w') as file:
         json.dump(sorted_symbols_dict, file, indent=2)
@@ -66,6 +69,5 @@ if __name__ == "__main__":
     categories_file = os.path.expanduser("list-categories.txt")
     tags_file = os.path.expanduser("list-tags.txt")
     output_file = "symbols.json"
-
     generate_symbols_json(list_file, categories_file, tags_file, output_file)
     print(f"Generated {output_file} successfully.")
